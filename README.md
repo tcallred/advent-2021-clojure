@@ -1,14 +1,14 @@
 # advent-2021-clojure
 
-A Clojure library designed to ... well, that part is up to you.
+My solutions to 2021 Advent of Code
 
 ## Usage
 
-FIXME
+Use Calva or Cider to jack-in and evaluate the results inline. 
 
 ## License
 
-Copyright © 2021 FIXME
+Copyright © 2021 Taylor Allred
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at

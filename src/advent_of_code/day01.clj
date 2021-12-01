@@ -17,8 +17,10 @@
 
 (defn part-1
   [input]
-  (count
-   (filter identity (map < input (drop 1 input)))))
+  (as-> input $
+    (map < $ (drop 1 $))
+    (filter identity $)
+    (count $)))
 
 (part-1 sample-set)
 (part-1 big-set)
